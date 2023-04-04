@@ -1,0 +1,82 @@
+:root {
+  --my-red: #240a05;
+}
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img[src="./assets/img/pokemon-not-found.png"] {
+  height: 95px;
+}
+
+/* Generals */
+
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(24, 61, 61);
+}
+
+
+figure {
+  height: 200px;
+  background-color: #4b6564;
+  border: solid 1px var(--my-red);
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px #000;
+}
+
+
+
+
+#type-pokemon:hover {
+      background-color: #c3c13d;
+}
+
+/* Pokemons */
+
+.modal-header {
+  background-color: #061a17;
+  color: white;
+}
+
+.modal-footer{
+
+  background-color: #061a17;
+  color: white;
+}
+
+.modal-body {
+  background-color: #cacdcd;
+  border-color: #061a17;
+}
+
+.Pokemon-figure {
+  padding: 1rem;
+}
+
+/* Buttons */
+
+.Button-boxButtonPokemon {
+  width: 100%;
+}
+
+.Button-pokemon {
+  width: 100%;
+  margin: 1rem auto;
+  font-weight: 700;
+  background-color: #541104;
+  border-color: aliceblue;
+}
+
+.container-footer {
+  margin-top: 80px;
+  padding-top: 60px ;
+  height: 150px;
+  background-color: #061a17;
+}
